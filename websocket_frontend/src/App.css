@@ -1,0 +1,15 @@
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: var(--spacing-sm);
+  }
+}
